@@ -23,7 +23,7 @@ public class Connecter implements Runnable{ // This class connects to website
 		
 	}
 	
-	public String connect(String link)
+	private String connect(String link)
 	{
 		
 		String url = link;

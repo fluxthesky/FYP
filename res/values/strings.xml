@@ -6,5 +6,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_population_history">PopulationHistory</string>
     <string name="title_activity_loading_screen">LoadingScreen</string>
+    <string name="title_activity_video_playback">VideoPlayback</string>
 
 </resources>

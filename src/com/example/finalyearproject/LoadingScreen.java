@@ -21,10 +21,10 @@ public class LoadingScreen extends Activity {
 	private ImageView mLoadingSpinner;
 	private Animation mAnimation;
 	private Connecter mConnecter;
-	private String URL = "http://melcolmlee.dyndns.org/results.php";
+	private String URL = "http://164.78.251.47/result.php";
 	private Elements mElementForMaxNumber;
 	private Elements mElementForFoodcourtStatus;
-	private int mMaxNumber = 10;
+	private int mMaxNumber = 500;
 	private int mFoodcourtStatus = 1;
 
 	
@@ -67,7 +67,7 @@ public class LoadingScreen extends Activity {
 					
 					runOnUiThread(new Runnable() {
 						public void run() {
-							showErrorLog();
+							startMainActivity();
 
 						}
 					});

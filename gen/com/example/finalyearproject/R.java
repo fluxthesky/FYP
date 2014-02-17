@@ -227,59 +227,61 @@ public final class R {
         public static final int url1=0x7f020012;
     }
     public static final class id {
-        public static final int Desc=0x7f0a001f;
-        public static final int ScrollView1=0x7f0a0017;
-        public static final int action_settings=0x7f0a0021;
-        public static final int aprox_number_of_chairs_remaining=0x7f0a0014;
-        public static final int cardContent=0x7f0a001b;
+        public static final int Desc=0x7f0a0020;
+        public static final int ScrollView1=0x7f0a0018;
+        public static final int action_settings=0x7f0a0022;
+        public static final int aprox_number_of_chairs_remaining=0x7f0a0015;
+        public static final int cardContent=0x7f0a001c;
         public static final int cardsview=0x7f0a0003;
-        public static final int circle=0x7f0a001e;
-        public static final int crowdstatus=0x7f0a0013;
-        public static final int description=0x7f0a000c;
+        public static final int circle=0x7f0a001f;
+        public static final int crowdstatus=0x7f0a0014;
+        public static final int description=0x7f0a000d;
         public static final int drawer_layout=0x7f0a0002;
         public static final int drawer_view=0x7f0a0005;
-        public static final int imageView1=0x7f0a0010;
+        public static final int imageView1=0x7f0a0011;
         public static final int left_menu=0x7f0a0007;
-        public static final int listView=0x7f0a0015;
-        public static final int loading=0x7f0a0020;
+        public static final int listView=0x7f0a0016;
+        public static final int loading=0x7f0a0021;
         public static final int loading_screen_loading=0x7f0a0001;
         public static final int loading_screen_sp_logo=0x7f0a0000;
         public static final int option_drawer=0x7f0a0006;
-        public static final int placeholder=0x7f0a0019;
+        public static final int placeholder=0x7f0a001a;
         public static final int population_history=0x7f0a0009;
-        public static final int refresh=0x7f0a0022;
-        public static final int save=0x7f0a000e;
+        public static final int refresh=0x7f0a0023;
+        public static final int save=0x7f0a000f;
         public static final int scrollView1=0x7f0a0008;
-        public static final int share=0x7f0a000b;
-        public static final int sharepic=0x7f0a000f;
-        public static final int sharestats=0x7f0a0012;
-        public static final int showmore=0x7f0a000d;
-        public static final int stackContainer=0x7f0a001d;
-        public static final int stackTitle=0x7f0a001c;
-        public static final int sticky=0x7f0a0016;
-        public static final int tableLayout=0x7f0a0018;
+        public static final int share=0x7f0a000c;
+        public static final int sharepic=0x7f0a0010;
+        public static final int sharestats=0x7f0a0013;
+        public static final int showmore=0x7f0a000e;
+        public static final int stackContainer=0x7f0a001e;
+        public static final int stackTitle=0x7f0a001d;
+        public static final int sticky=0x7f0a0017;
+        public static final int tableLayout=0x7f0a0019;
         public static final int testing=0x7f0a0004;
-        public static final int textView2=0x7f0a001a;
-        public static final int title=0x7f0a000a;
-        public static final int titlestats=0x7f0a0011;
+        public static final int textView2=0x7f0a001b;
+        public static final int title=0x7f0a000b;
+        public static final int titlestats=0x7f0a0012;
+        public static final int video=0x7f0a000a;
     }
     public static final class layout {
         public static final int activity_loading_screen=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int activity_population_history=0x7f030002;
-        public static final int card_ex=0x7f030003;
-        public static final int card_picture=0x7f030004;
-        public static final int card_stats=0x7f030005;
-        public static final int cards_view=0x7f030006;
-        public static final int cards_view_multicolumn=0x7f030007;
-        public static final int header=0x7f030008;
-        public static final int item_card=0x7f030009;
-        public static final int item_card_empty=0x7f03000a;
-        public static final int item_card_empty_first=0x7f03000b;
-        public static final int item_card_empty_last=0x7f03000c;
-        public static final int item_stack=0x7f03000d;
-        public static final int list_view=0x7f03000e;
-        public static final int pic=0x7f03000f;
+        public static final int activity_video_playback=0x7f030003;
+        public static final int card_ex=0x7f030004;
+        public static final int card_picture=0x7f030005;
+        public static final int card_stats=0x7f030006;
+        public static final int cards_view=0x7f030007;
+        public static final int cards_view_multicolumn=0x7f030008;
+        public static final int header=0x7f030009;
+        public static final int item_card=0x7f03000a;
+        public static final int item_card_empty=0x7f03000b;
+        public static final int item_card_empty_first=0x7f03000c;
+        public static final int item_card_empty_last=0x7f03000d;
+        public static final int item_stack=0x7f03000e;
+        public static final int list_view=0x7f03000f;
+        public static final int pic=0x7f030010;
     }
     public static final class menu {
         public static final int loading=0x7f090000;
@@ -287,6 +289,7 @@ public final class R {
         public static final int main=0x7f090002;
         public static final int population_history=0x7f090003;
         public static final int refresh=0x7f090004;
+        public static final int video_playback=0x7f090005;
     }
     public static final class string {
         public static final int action_settings=0x7f080001;
@@ -294,6 +297,7 @@ public final class R {
         public static final int hello_world=0x7f080002;
         public static final int title_activity_loading_screen=0x7f080004;
         public static final int title_activity_population_history=0x7f080003;
+        public static final int title_activity_video_playback=0x7f080005;
     }
     public static final class style {
         /** 
